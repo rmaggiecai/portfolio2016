@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: "proxima-nova", Helvetica, Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3A4351;
+  font-weight: 400; }
+
+h1 {
+  font-family: "essonnes-display", sans-serif;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  margin-top: 39px;
+  margin-bottom: 26px; }
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 28px;
+      line-height: 39px; } }
+
+h2 {
+  font-size: 18px;
+  line-height: 26px;
+  color: #98A0AC;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-weight: 700; }
+  h2:before {
+    content: url("../../img/icons/diamond.svg");
+    margin-right: 13px; }
+
+h3 {
+  font-size: 13px;
+  line-height: 26px;
+  color: #657082;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 13px;
+  font-weight: 700; }
+
+.caption {
+  color: #98A0AC; }
+
+a {
+  color: #3A4351;
+  text-decoration: none; }
+  a:hover {
+    color: #3A4351; }
+
+span.a {
+  border-bottom: 7px solid rgba(247, 213, 207, 0.5);
+  position: relative;
+  top: -8px; }
+  span.a a {
+    position: relative;
+    top: 8px; }
+
+p, ul {
+  margin: 0; }
+
+.content-wrapper, nav ul, footer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .content-wrapper::after, nav ul::after, footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+body {
+  margin: 0 39px; }
+  @media screen and (max-width: 480px) {
+    body {
+      margin: 0 26px; } }
+
+footer {
+  border-top: 1px solid #CBCFD5;
+  margin-top: 208px; }
+  @media screen and (max-width: 480px) {
+    footer {
+      margin-top: 130px; } }
+  footer .wrapper {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center; }
+  footer a {
+    border-bottom: none;
+    color: #3A4351;
+    padding: 26px 0; }
+  footer .logo {
+    padding: 26px 0;
+    display: flex;
+    display: -webkit-flex; }
+    footer .logo img {
+      width: 26px;
+      height: 26px; }
+
+nav {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100; }
+  nav ul {
+    list-style: none;
+    padding: 26px 0; }
+    @media screen and (max-width: 960px) {
+      nav ul {
+        margin: 0 39px; } }
+    @media screen and (max-width: 480px) {
+      nav ul {
+        margin: 0 26px; } }
+    nav ul li {
+      display: block; }
+      nav ul li a {
+        padding: 26px 0; }
+      nav ul li #logo img {
+        height: 18px; }
+
+.nav-up {
+  position: fixed;
+  top: -78px;
+  visibility: hidden;
+  transition: top 0.5s ease-in-out, visibility 0.5s linear 10s; }
+
+.nav-down {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  transition: top 0.5s ease-in-out; }

@@ -1,0 +1,102 @@
+@import "bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+@import 'variables';
+@import 'typography';
+
+.content-wrapper,nav ul, footer{
+  @include outer-container;
+}
+body{
+  margin: 0 $medium-spacing;
+
+  @include media($mobile){
+    margin: 0 $s-m-spacing;
+  }
+}
+footer{
+  border-top: $line-break;
+  margin-top: $gap-break;
+
+  @include media($mobile){
+    margin-top: $section-break;
+  }
+  .wrapper{
+    display:flex;
+    display: -webkit-flex;
+    justify-content: space-between;;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+
+  a{
+    border-bottom: none;
+    color:$text-color;
+    padding: $s-m-spacing 0;
+  }
+
+  .logo{
+    padding: $s-m-spacing 0;
+    display: flex;
+    display: -webkit-flex;
+    img{
+      width: $s-m-spacing;
+      height: $s-m-spacing;
+    }
+  }
+}
+
+nav {
+  position: absolute;
+  left:0;
+  width: 100%;
+  background-color: white;
+  z-index:100;
+
+  ul{
+    list-style: none;
+    padding: $s-m-spacing 0;
+
+    @include media ($desktop){
+      margin: 0 $medium-spacing;
+    }
+
+    @include media($mobile){
+      margin: 0 $s-m-spacing;
+    }
+
+    li{
+      display: block;
+
+
+      a{
+        padding:$s-m-spacing 0;
+      }
+
+      #logo img{
+        height: 18px;
+      }
+
+    }
+  }
+}
+.nav-up {
+  position: fixed;
+  top: -78px; // same as header height. use variables in LESS/SASS
+  visibility: hidden;
+  transition: top 0.5s ease-in-out,
+              visibility 0.5s linear 10s;
+
+}
+
+.nav-down{
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  transition: top 0.5s ease-in-out;
+}
+
+.nav-on-scroll{
+}

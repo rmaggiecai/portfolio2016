@@ -1,0 +1,29 @@
+//brand colors
+$dark-blue: #3A4351;
+$blue: #657082;
+
+$blue-gray: #98A0AC;
+$lightest-blue-gray: #CBCFD5;
+
+$off-white: #EDEFF1;
+
+$pink: #F7D5CF;
+$light-pink: #FCEEEC;
+$pink50: rgba(247,213,207,0.5);
+
+//Typography
+$body-font: "proxima-nova", Helvetica, Sans-serif;
+$heading-font:"essonnes-display", sans-serif;
+$text-color: $dark-blue;
+
+//Other standards
+$line-break: 1px solid $lightest-blue-gray;
+
+$small-spacing: 13px;
+$s-m-spacing: $small-spacing*2;
+$medium-spacing: $small-spacing*3;
+$m-l-spacing: $small-spacing*4;
+$large-spacing: $small-spacing*6;
+$section-break: $small-spacing*10;
+$gap-break-mobile: $small-spacing*12;
+$gap-break: $small-spacing*16;

@@ -1,0 +1,76 @@
+@import 'variables';
+
+body{
+  font-family: $body-font;
+  font-size: 16px;
+  line-height: $s-m-spacing;
+  color: $text-color;
+  font-weight: 400;
+}
+
+h1{
+  font-family: $heading-font;
+  font-size: 36px;
+  line-height: $m-l-spacing;
+  font-weight: 400;
+  margin-top: $medium-spacing;
+  margin-bottom: $s-m-spacing;
+
+  @include media($mobile) {
+    font-size: 28px;
+    line-height: $medium-spacing;
+  }
+}
+
+h2{
+  font-size: 18px;
+  line-height: $s-m-spacing;
+  color: $blue-gray;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:before{
+    content: url('../../img/icons/diamond.svg');
+    margin-right: $small-spacing;
+  }
+}
+
+h3{
+  font-size: 13px;
+  line-height: $s-m-spacing;
+  color: $blue;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: $medium-spacing;
+  margin-bottom: $small-spacing;
+  font-weight: 700;
+}
+
+.caption{
+  color: $blue-gray;
+}
+
+a{
+  color:$text-color;;
+  text-decoration: none;
+
+  &:hover{
+    color: $text-color;
+  }
+}
+
+span.a{
+  border-bottom: 7px solid $pink50;
+  position:relative;
+  top:-8px;
+  a{
+    position:relative;
+    top:8px;
+
+  }
+}
+
+p, ul{
+  margin: 0;
+}

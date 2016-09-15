@@ -1,0 +1,26 @@
+body {
+  font-family: "proxima-nova", Helvetica, Sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3A4351; }
+
+h1 {
+  font-family: "essonnes-display", serif;
+  font-size: 36px;
+  line-height: 48px; }
+
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #98A0AC;
+  letter-spacing: 1.8;
+  text-transform: uppercase; }
+  h2:before {
+    background-image: url("src/img/icons/diamond.svg"); }
+
+h3 {
+  font-size: 12px;
+  line-height: 24px;
+  color: #657082;
+  letter-spacing: 1.2;
+  text-transform: uppercase; }

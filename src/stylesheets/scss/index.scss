@@ -1,0 +1,287 @@
+@import "bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+@import 'variables';
+@import 'typography';
+
+
+.header-background-image{
+  height: 100vh;
+}
+.header{
+  @include outer-container;
+  #quote{
+     @include span-columns(4);
+    //  @include omega;
+
+     margin-top: 35vh;
+     @include media ($mobile){
+       margin-top: 30vh;
+     }
+     @include media ($iphone5){
+       margin-top: 26vh;
+     }
+
+     @include media($mobile) {
+        @include span-columns(2);
+      }
+
+      h1{
+        // margin-top: $m-l-spacing;
+        text-indent: -13px;
+        font-size: 40px;
+        line-height: 62px;
+
+        @include media ($mobile){
+          text-indent: -11px;
+          font-size: 30px;
+          line-height: 1.4;
+        }
+
+      }
+
+      p.caption{
+        text-indent: -6px;
+      }
+  }
+
+  #brand{
+
+  }
+  #read-more{
+    @include span-columns(4);
+
+    @include media($mobile) {
+       @include span-columns(2);
+     }
+
+
+    a{
+      position:absolute;
+      bottom: 6vh;
+      left: 50%;
+      transform: translateX(-50%);
+      border-bottom: none;
+
+      @include media($mobile) {
+         bottom: 4vh;
+       }
+
+      &:hover{
+        img{
+          @include animation(bounce 2300ms infinite ease);
+        }
+      }
+    }
+  }
+}
+
+.body{
+  @include outer-container;
+  margin-top: $section-break;
+
+  .about-me-intro{
+    @include outer-container;
+    .about-me-description{
+      @include span-columns(2 of 4);
+
+      @include media($mobile) {
+         @include span-columns(2);
+       }
+    }
+
+    .about-me-image{
+      @include span-columns(2 of 4);
+      @include omega;
+
+      @include media($mobile) {
+         @include span-columns(2);
+         margin-top: $medium-spacing;
+       }
+      img{
+        max-width: 100%;
+        box-shadow: 0px 29px 20px -29px rgba(178, 148, 154, 0.32), 0px 29px 30px -24px rgba(0, 0, 0, 0.20)
+      }
+    }
+  }
+}
+
+.about-me-experience{
+  margin-top: $section-break;
+
+  @include media($mobile) {
+     @include span-columns(2);
+   }
+  h3{
+    margin-top: 0px;
+  }
+
+  .company{
+    @include span-columns(2 of 4);
+    @include media($mobile) {
+       @include span-columns(2);
+     }
+  }
+  [class^="experience-"]{
+    @include outer-container;
+    margin-top: $medium-spacing;
+    overflow:auto;
+  }
+  .experience-1{
+    @include omega;
+    margin-top: 0;
+  }
+  .description{
+    @include span-columns(2 of 4);
+
+    @include media($mobile) {
+       @include span-columns(2);
+       margin-top: $small-spacing;
+     }
+  }
+}
+
+.project{
+  @include outer-container;
+  margin-bottom: $large-spacing;
+  @include media($mobile){
+    margin-bottom: $small-spacing*7;
+  }
+
+  a{
+    .image{
+      position: relative;
+      .cover{
+        opacity: 0;
+        width: 100%;
+        height: calc(100% - 7px);
+        position: absolute;
+        top: 0;
+        @include transition(opacity 400ms ease-in-out);
+
+
+        .background{
+          width: 100%;
+          height: 100%;
+          background-color: #3E4857;
+          opacity: .75;
+        }
+
+        h3{
+          color: white;
+          margin:0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
+
+      }
+      img{
+	      filter: blur(0);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+        @include transition(filter 400ms ease-in-out);
+      }
+    }
+
+    &:hover{
+      .image {
+        .cover{
+          opacity: 1;
+
+        }
+        img{
+          filter: blur(2px);
+          -webkit-filter: blur(2px);
+          -moz-filter: blur(2px);
+          -o-filter: blur(2px);
+          -ms-filter: blur(2px);
+          filter: url("/src/stylesheets/blur.svg#blur");
+        }
+      }
+    }
+  }
+  .description{
+    @include span-columns(2);
+
+    @include media($mobile) {
+       @include span-columns(2);
+     }
+
+    h1{
+      margin-top: $m-l-spacing;
+
+      @include media ($tablet) {
+        margin-top: $medium-spacing;
+      }
+      @include media($mobile) {
+        margin-top: $s-m-spacing;
+        margin-bottom: $small-spacing;
+       }
+    }
+  }
+  .image{
+    @include span-columns(2);
+    @include media($mobile) {
+       @include span-columns(2);
+     }
+    img{
+      max-width: 100%;
+    }
+
+    #upshot{
+      box-shadow: 0px 29px 20px -29px rgba(246, 224, 175, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.20);
+    }
+    #mongo{
+      box-shadow: 0px 29px 20px -29px rgba(205, 235, 183, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.2);
+    }
+    #finder{
+      box-shadow: 0px 29px 20px -29px rgba(201, 220, 242, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  a{
+    color: $text-color;
+    border:none;
+  }
+}
+
+h2{
+  margin-bottom: $m-l-spacing;
+  margin-top: 0px;
+  @include media ($mobile){
+    margin-bottom: $medium-spacing;
+  }
+}
+
+#project-2, #project-4, #project-6 {
+  a{
+    @include media($mobile){
+      display:flex;
+      display: -webkit-flex;
+      flex-direction: column-reverse;
+      -webkit-flex-direction: column-reverse;
+    }
+  }
+}
+
+#my-work:last-child{
+  margin-bottom: 0;
+}
+
+//animation
+@include keyframes(bounce) {
+	0%, 50%, 100% {
+    @include transform(translateY(0));
+  }
+	25% {
+    @include transform(translateY(-20px));
+  }
+	75% {
+    @include transform(translateY(-20px));
+  }
+}
