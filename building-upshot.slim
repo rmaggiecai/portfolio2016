@@ -24,11 +24,8 @@ html
     script src="/src/javascript/nav-script.js"
 
   body
-      nav
-        ul
-          li
-            a#logo href="/"
-              img src="src/img/name-logo5.svg"
+      include _header.slim
+
       .content-wrapper
         .header
           h1 Building Upshot From the Ground Up
@@ -99,9 +96,4 @@ html
             .caption Building Upshot From the Ground Up
 
 
-      footer
-        .wrapper
-          .logo
-            img src="src/img/logo2.svg"
-          .email
-            a href="mailto:r.maggie.cai@gmail.com" r.maggie.cai@gmail.com
+      include _footer.slim
