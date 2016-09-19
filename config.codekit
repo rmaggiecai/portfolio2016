@@ -2661,6 +2661,29 @@
 		"outputStyle": 1,
 		"railsCompatible": 0
 		},
+	"\/mongodb.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mongodb.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mongodb.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mongodb.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/mongodb.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
 	"\/src\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2727,6 +2750,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/images\/project\/mongodb\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130742,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/email.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/mongodb\/modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74730,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/modal.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/images\/project\/mongodb\/mongo-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2734,6 +2779,61 @@
 		"initialSize": 45663,
 		"inputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/mongo-cover.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/mongo-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/mongodb\/new-design.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186326,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/new-design.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/mongodb\/new-design.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84000,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/experience-audit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.58713e+06,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/experience-audit.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/experience-audit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101225,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/upshot-onboarding-cover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730910,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/upshot-onboarding-cover.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/upshot-onboarding-cover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2884,6 +2984,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/stylesheets\/css\/mongodb.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/css\/mongodb.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/stylesheets\/css\/upshot-onboarding.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/css\/upshot-onboarding.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/stylesheets\/css\/upshot.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2991,6 +3109,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/stylesheets\/scss\/index.scss",
 		"outputAbbreviatedPath": "\/src\/stylesheets\/css\/index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/stylesheets\/scss\/mongodb.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/scss\/mongodb.scss",
+		"outputAbbreviatedPath": "\/src\/stylesheets\/css\/mongodb.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/stylesheets\/scss\/upshot-onboarding.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/scss\/upshot-onboarding.scss",
+		"outputAbbreviatedPath": "\/src\/stylesheets\/css\/upshot-onboarding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3284,6 +3434,29 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/upshot-onboarding.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/upshot-onboarding.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/upshot-onboarding.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/upshot-onboarding.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/upshot-onboarding.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
 		}
 	},
 "hooks": [

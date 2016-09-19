@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title Improving the Upshot Onboarding Experience
+    meta name="description" content="Upshot helps business generate authentic customer stories while rewarding their advocates."
+    meta name="keywards" content="user experience, user interface, design"
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+
+		link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		script src="https://use.typekit.net/fdq4kwe.js"
+		javascript:
+			try{Typekit.load({ async: true });}catch(e){}
+
+    link href="src/stylesheets/css/base.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/content.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/mongodb.css" rel='stylesheet' type='text/css'
+    link rel="icon" type="image/png" href="src/img/favicon.png"
+    link rel="shortcut icon" href="path/to/favicon.ico"
+    script src="https://code.jquery.com/jquery-1.12.0.min.js"
+		script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+		script src="/src/javascript/script.js"
+    script src="/src/javascript/nav-script.js"
+
+  body
+      include _header.slim
+
+      .content-wrapper
+        .header
+          h1 MongoDB Monitoring Service (MMS) Open Alerts Feed Redesign
+          .caption UX Design, UI Design, Front-end
+        .content
+          p
+            | We wanted to help users coordinate and communicate better with their team members when managing database. Based on customer feedback, we wanted to introduce a new feature that will allow users to leave a comment when they acknowledge an alert.
+
+        .image-container
+          img#img-1 src="src/img/images/project/mongodb/new-design.png"
+          .caption New alerts feed.
+
+        .image-container
+          img#img-2 src="src/img/images/project/mongodb/modal.png"
+          .caption Modal for acknowledging alerts.
+
+        .image-container
+          img#img-3 src="src/img/images/project/mongodb/email.png"
+          .caption Email notification.
+
+
+
+        .read-medium
+          a href="https://medium.com/@rmaggiecai/mongodb-monitoring-service-mms-open-alerts-feed-redesign-868fa7954125#.u1vg62rpo"
+            .heading
+              h3 READ MORE
+              img src="src/img/icons/right-arrow.svg"
+            p Checkout the Medium post to learn more about the design process
+            .caption MongoDB Monitoring Service (MMS) Open Alerts Feed Redesign
+
+
+      include _footer.slim

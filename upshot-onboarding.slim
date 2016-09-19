@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    title Improving the Upshot Onboarding Experience
+    meta name="description" content="Upshot helps business generate authentic customer stories while rewarding their advocates."
+    meta name="keywards" content="user experience, user interface, design"
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+
+		link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		script src="https://use.typekit.net/fdq4kwe.js"
+		javascript:
+			try{Typekit.load({ async: true });}catch(e){}
+
+    link href="src/stylesheets/css/base.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/content.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/upshot-onboarding.css" rel='stylesheet' type='text/css'
+    link rel="icon" type="image/png" href="src/img/favicon.png"
+    link rel="shortcut icon" href="path/to/favicon.ico"
+    script src="https://code.jquery.com/jquery-1.12.0.min.js"
+		script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+		script src="/src/javascript/script.js"
+    script src="/src/javascript/nav-script.js"
+
+  body
+      include _header.slim
+
+      .content-wrapper
+        .header
+          h1 Improving the Upshot Onboarding Experience
+          .caption UX and UI Design
+        .content
+          p
+            | After we launched our MVP, we saw a high drop-off rate after sign up. Users that stayed did not fully understand our offerings. With little time and resources, I decided to do an audit of the entire onboarding experience to identify key areas for improvement.
+
+        .image-container
+          img#img-1 src="src/img/images/project/upshot-onboarding/experience-audit.jpg"
+          .caption The experience audit.
+
+        .content
+          h3 Redesiging the Start Screen
+          p
+          |After I presented the audit to the team, I was tasked to redesign the Start Screen.  The goal of the redesign was to help users understand the benefits of our service and inform them of   our process.
+
+        .image-container
+          img#img-2 src="src/img/images/project/upshot-onboarding/contributor-start-screen.png"
+          .caption Start Screen redesign.
+
+        .image-container
+          img#img-3 src="src/img/images/project/upshot-onboarding/final-icon-set.png"
+          .caption New icon set.
+
+
+
+        .read-medium
+          a href="https://medium.com/@rmaggiecai/improving-the-upshot-onboarding-experience-55215906a563#.egz2pkoem"
+            .heading
+              h3 READ MORE
+              img src="src/img/icons/right-arrow.svg"
+            p Checkout the Medium post to learn more about the design process
+            .caption Improving the Upshot Onboarding Experience.
+
+
+      include _footer.slim
