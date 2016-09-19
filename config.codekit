@@ -30,6 +30,20 @@
 		"outputStyle": 1,
 		"railsCompatible": 0
 		},
+	"\/_medium.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_medium.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/_medium.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
 	"\/bourbon_neat\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2794,6 +2808,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/cta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124886,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/cta.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/cta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/final-flow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64177,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/final-flow.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/final-flow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/ideal-design.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90870,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/ideal-design.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/ideal-design.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 770403,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 573871,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2993,6 +3062,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/stylesheets\/css\/upshot-newCampaign.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/css\/upshot-newCampaign.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/stylesheets\/css\/upshot-onboarding.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3125,6 +3203,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/stylesheets\/scss\/mongodb.scss",
 		"outputAbbreviatedPath": "\/src\/stylesheets\/css\/mongodb.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/stylesheets\/scss\/upshot-newCampaign.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/stylesheets\/scss\/upshot-newCampaign.scss",
+		"outputAbbreviatedPath": "\/src\/stylesheets\/css\/upshot-newCampaign.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3434,6 +3528,29 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/upshot-newCampaign.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/upshot-newCampaign.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/upshot-newCampaign.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/upshot-newCampaign.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/upshot-newCampaign.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
 		},
 	"\/upshot-onboarding.html": {
 		"fileType": 8192,

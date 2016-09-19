@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    title Designing the Campaign Creation Flow for Upshot
+    meta name="description" content="Upshot helps business generate authentic customer stories while rewarding their advocates."
+    meta name="keywards" content="user experience, user interface, design"
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+
+		link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		script src="https://use.typekit.net/fdq4kwe.js"
+		javascript:
+			try{Typekit.load({ async: true });}catch(e){}
+
+    link href="src/stylesheets/css/base.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/content.css" rel='stylesheet' type='text/css'
+    link href="src/stylesheets/css/upshot-newCampaign.css" rel='stylesheet' type='text/css'
+    link rel="icon" type="image/png" href="src/img/favicon.png"
+    link rel="shortcut icon" href="path/to/favicon.ico"
+    script src="https://code.jquery.com/jquery-1.12.0.min.js"
+		script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+		script src="/src/javascript/script.js"
+    script src="/src/javascript/nav-script.js"
+
+  body
+      include _header.slim
+
+      .content-wrapper
+        .header
+          h1 Designing the Campaign Creation Flow for Upshot
+          .caption UX and UI Design
+        .content
+          p
+            | The initial MVP onboarding flow for vendors was confusing and difficult to complete. A month after the MVP launch, I redesigned the entire flow based on user feedback. Through user testing, we were able to create a more comprehensive and easy process. However, due to technical resource constraints, I was limited to using existing design elements and quick fixes so users can exit and save their progress at any time.
+
+        .image-container
+          img#img-1 src="src/img/images/project/upshot-newCampaign/final-flow.png"
+          .caption Final flow for onboarding and creating new campaigns.
+
+
+        .image-container
+          img#img-2 src="src/img/images/project/upshot-newCampaign/ideal-design.png"
+          .caption The ideal campaign creation navigation design.
+
+        .video-container
+          .iframe-container
+            iframe src="https://player.vimeo.com/video/179256467" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+          .caption Final create new campaign flow.
+
+        .image-container
+          img#img-3 src="src/img/images/project/upshot-newCampaign/cta.png"
+          .caption Step 2 of the campaign creation flow.
+
+        .image-container
+          img#img-4 src="src/img/images/project/upshot-newCampaign/review-open-screen.png"
+          .caption Last step of the campaign creation flow.
+
+
+
+        .read-medium
+          a href="https://medium.com/@rmaggiecai/designing-campaign-creation-flow-for-upshot-a8b1f4634fdd#.i6zwzn94v"
+            include _medium.slim
+            .caption Designing the Campaign Creation Flow for Upshot
+
+
+      include _footer.slim
