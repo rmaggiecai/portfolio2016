@@ -38,7 +38,7 @@
     @include shift(1);
     @include omega;
 
-    margin-top: $gap-break;
+    margin-top: $large-spacing;
     background-color: $off-white;
     padding:$s-m-spacing;
 
@@ -111,5 +111,12 @@ h3{
 }
 
 footer{
-  margin-top: $large-spacing;
+  // margin-top: $large-spacing;
+}
+
+.next-project{
+  margin-top: $gap-break;
+  h1{
+    margin-top: 0 !important;
+  }
 }
