@@ -1978,6 +1978,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-existing-ui.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83162,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-existing-ui.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-existing-ui.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-new-ui.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90711,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-new-ui.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-new-ui.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/cta.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2011,6 +2033,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/original-flow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32209,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/original-flow.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/original-flow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2029,6 +2062,28 @@
 		"initialSize": 192504,
 		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-newCampaign\/wires.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293778,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/wires.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-newCampaign\/wires.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/alternative-layouts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102539,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/alternative-layouts.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/alternative-layouts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2062,6 +2117,50 @@
 		"initialSize": 101225,
 		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png",
 		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/icons-noun-project.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71301,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/icons-noun-project.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/icons-noun-project.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/layout-explorations.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157099,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/layout-explorations.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/layout-explorations.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/old-start-screen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149393,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/old-start-screen.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/old-start-screen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/images\/project\/upshot-onboarding\/original-icon-set.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61452,
+		"inputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/original-icon-set.png",
+		"outputAbbreviatedPath": "\/src\/img\/images\/project\/upshot-onboarding\/original-icon-set.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

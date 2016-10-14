@@ -192,6 +192,12 @@ nav {
       max-width: 100%;
     }
 
+    #upshot-1{
+      box-shadow: 0px 29px 20px -29px rgba(199, 237, 192, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.20);
+    }
+    #upshot-2{
+      box-shadow: 0px 29px 20px -29px rgba(212, 198, 231, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.20);
+    }
     #upshot{
       box-shadow: 0px 29px 20px -29px rgba(246, 224, 175, 0.2), 0px 29px 30px -24px rgba(0, 0, 0, 0.20);
     }
@@ -207,4 +213,8 @@ nav {
     color: $text-color;
     border:none;
   }
+}
+
+.bold{
+  font-weight: 700;
 }
