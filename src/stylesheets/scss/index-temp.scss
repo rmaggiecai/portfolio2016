@@ -1,0 +1,93 @@
+@import "bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+@import 'variables';
+@import 'typography';
+
+$gutter-dekstop: calc(0.025 * (100vw - 78px));
+$gutter-mobile: calc(0.025 * (100vw - 52px));
+body{
+}
+
+.background{
+  height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-size: 24px 24px;
+    background-image:linear-gradient(to bottom, $off-white 1px, transparent 1px);
+  .left{
+    width:50%;
+    height: inherit;
+    float:left;
+    position: relative;
+    transform: scaleX(-1);
+    right: 24px;
+    background-size: 24px 24px;
+      background-image:linear-gradient(to right, $off-white 1px, transparent 1px);
+  }
+  .right{
+    width: 50%;
+    float:right;
+    height:inherit;
+    background-size: 24px 24px;
+    background-image:linear-gradient(to right, $off-white 1px, transparent 1px);
+  }
+
+  @media (max-width: 1037px) {
+    background-size: $gutter-dekstop $gutter-dekstop;
+    .left{
+      right: $gutter-dekstop;
+      background-size: $gutter-dekstop $gutter-dekstop;
+    }
+    .right{
+      background-size: $gutter-dekstop $gutter-dekstop;
+      }
+  }
+
+  @include media($mobile){
+    background-size: 26px 26px;
+    .left{
+      transform: scaleX(1);
+      right: 0;
+      width: 100%;
+      background-size: 26px 26px;
+
+    }
+    .right{
+      display: none;
+      }
+
+  }
+}
+
+.content-left,.content-right{
+  @include span-columns(2);
+
+  @include media($mobile) {
+     @include span-columns(2);
+   }
+}
+
+#inner{
+  position: relative;
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+
+  @include media ($mobile){
+    display: block;
+    margin-top: $s-m-spacing;
+
+    .content-left{
+    }
+    .content-right{
+      position: fixed;
+      bottom: $s-m-spacing;
+      width: calc(100% - 52px);
+    }
+  }
+}
