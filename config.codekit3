@@ -7,7 +7,7 @@
 		"uuidString": "02F11065-2AC8-4CF4-89A7-D05497D09CE8"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25704",
 "files": {
 	"\/.sass-cache\/510c8e687ddb7a68e02d6e5b3c561aa62b8aa385\/variables.scssc": {
 		"ft": 8192,
@@ -1572,7 +1572,7 @@
 		"llg": 0,
 		"oA": 0,
 		"oAP": "\/index.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 1,
 		"rAC": 0
@@ -1609,10 +1609,12 @@
 	"\/src\/img\/favicon.png": {
 		"ft": 32768,
 		"iS": 666,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/full-logo.svg": {
 		"ft": 2097152,
@@ -1680,7 +1682,8 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/portrait-copy.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/portrait.jpg": {
 		"ft": 16384,
@@ -1688,15 +1691,18 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/portrait.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/britco\/B+C-cover.png": {
 		"ft": 32768,
 		"iS": 6302760,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/britco\/B+C-cover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/finder\/finder-cover.jpg": {
 		"ft": 16384,
@@ -1704,7 +1710,8 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/finder\/finder-cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/finder\/finder-cover2.jpg": {
 		"ft": 16384,
@@ -1712,23 +1719,28 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/finder\/finder-cover2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/mongodb\/email.png": {
 		"ft": 32768,
 		"iS": 130742,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/mongodb\/email.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/mongodb\/modal.png": {
 		"ft": 32768,
 		"iS": 74730,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/mongodb\/modal.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/mongodb\/mongo-cover.jpg": {
 		"ft": 16384,
@@ -1736,15 +1748,18 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/mongodb\/mongo-cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/mongodb\/new-design.png": {
 		"ft": 32768,
 		"iS": 186326,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/mongodb\/new-design.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-existing-ui.jpg": {
 		"ft": 16384,
@@ -1752,7 +1767,8 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-existing-ui.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-new-ui.jpg": {
 		"ft": 16384,
@@ -1760,31 +1776,38 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/alternatives-new-ui.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/cta.png": {
 		"ft": 32768,
 		"iS": 124886,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/cta.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/final-flow.png": {
 		"ft": 32768,
 		"iS": 64177,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/final-flow.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/ideal-design.png": {
 		"ft": 32768,
 		"iS": 90870,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/ideal-design.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/original-flow.jpg": {
 		"ft": 16384,
@@ -1792,15 +1815,18 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/original-flow.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png": {
 		"ft": 32768,
 		"iS": 770403,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/review-open-screen.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.jpg": {
 		"ft": 16384,
@@ -1808,15 +1834,18 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/upshot-newCampaign-cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-newCampaign\/wires.png": {
 		"ft": 32768,
 		"iS": 293778,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-newCampaign\/wires.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/alternative-layouts.jpg": {
 		"ft": 16384,
@@ -1824,15 +1853,18 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/alternative-layouts.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png": {
 		"ft": 32768,
 		"iS": 84000,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/contributor-start-screen.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/experience-audit.jpg": {
 		"ft": 16384,
@@ -1840,23 +1872,28 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/experience-audit.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png": {
 		"ft": 32768,
 		"iS": 101225,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/final-icon-set.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/icons-noun-project.png": {
 		"ft": 32768,
 		"iS": 71301,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/icons-noun-project.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/layout-explorations.jpg": {
 		"ft": 16384,
@@ -1864,23 +1901,28 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/layout-explorations.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/old-start-screen.png": {
 		"ft": 32768,
 		"iS": 149393,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/old-start-screen.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/original-icon-set.png": {
 		"ft": 32768,
 		"iS": 61452,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/original-icon-set.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot-onboarding\/upshot-onboarding-cover.jpg": {
 		"ft": 16384,
@@ -1888,47 +1930,58 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot-onboarding\/upshot-onboarding-cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/affinity-diagram.png": {
 		"ft": 32768,
 		"iS": 1242460,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/affinity-diagram.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/contributor-questionnaire update1.png": {
 		"ft": 32768,
 		"iS": 256077,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/contributor-questionnaire update1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/contributor-questionnaire.png": {
 		"ft": 32768,
 		"iS": 255540,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/contributor-questionnaire.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/experiment-story-page.png": {
 		"ft": 32768,
 		"iS": 399301,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/experiment-story-page.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/mvp-story-page.png": {
 		"ft": 32768,
 		"iS": 543914,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/mvp-story-page.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/images\/project\/upshot\/upshot-cover.jpg": {
 		"ft": 16384,
@@ -1936,7 +1989,8 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/images\/project\/upshot\/upshot-cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/img\/logo2.svg": {
 		"ft": 2097152,
@@ -3003,7 +3057,8 @@
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/advocamp_logo-31e164602f838b35813267171e6e9fcd73a058e1641bba2efbd2c5e3e174cf0d.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/analytics(1).js": {
 		"ft": 64,
@@ -3046,26 +3101,32 @@
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-1__3_.png": {
 		"ft": 32768,
 		"iS": 1333140,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-1__3_.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-2.png": {
 		"ft": 32768,
 		"iS": 1176540,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-3.png": {
 		"ft": 32768,
 		"iS": 1398280,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/attachment-3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/chris-peltze.jpg": {
 		"ft": 16384,
@@ -3073,7 +3134,8 @@
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/chris-peltze.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/in(1).php": {
 		"ft": 8192,
@@ -3141,7 +3203,8 @@
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/Iq5JXY5j.jpeg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/jquery.waypoints-1e994a49f1827e54efa9e385145a15ee401962d8d1fd49ddba8a940b4697d266.js": {
 		"ft": 64,
@@ -3164,7 +3227,8 @@
 		"oA": 0,
 		"oAP": "\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/jw1m2-Rt.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/The-Power-Of-Customer-Success-In-Driving-Advocacy-For-Your-Organization-Upshot_files\/l": {
 		"ft": 8192,
@@ -3777,6 +3841,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -3941,6 +4009,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -3973,6 +4045,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -3991,6 +4067,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -4193,6 +4273,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -4304,6 +4388,10 @@
 		"no-return-assign": {
 			"active": 0,
 			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-script-url": {
 			"active": 0,
@@ -4465,6 +4553,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -4509,9 +4601,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4536,6 +4636,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -4602,6 +4706,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -5048,7 +5156,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5141,7 +5250,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -5369,6 +5480,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
