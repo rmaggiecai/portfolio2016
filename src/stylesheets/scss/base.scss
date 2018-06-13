@@ -1,6 +1,6 @@
 @import "bourbon";
 @import "grid-settings";
-@import "neat/neat";
+@import "bourbon_neat/neat";
 
 @import 'variables';
 @import 'typography';
@@ -8,7 +8,7 @@
 .content-wrapper,nav ul, footer{
   @include outer-container;
 }
-body{
+body, nav{
   margin: 0 $medium-spacing;
 
   @include media($mobile){
@@ -51,13 +51,14 @@ footer{
 nav {
   position: absolute;
   left:0;
-  width: 100%;
+  width: calc(100% - 39px * 2);
   background-color: white;
   z-index:100;
 
   ul{
     list-style: none;
     padding: $s-m-spacing 0;
+    height: $s-m-spacing * 3;
 
     @include media ($desktop){
       margin: 0 $medium-spacing;
@@ -68,17 +69,37 @@ nav {
     }
 
     li{
-      display: block;
+      display: inline-block;
 
 
-      a{
-        padding:$s-m-spacing 0;
+      // a{
+      //   padding:$s-m-spacing 0;
+      // }
+
+      #logo {
+        display: inline-block;
+        height: $s-m-spacing;
+        img{
+          width: $s-m-spacing;
+          height: $s-m-spacing;;
+        }
       }
 
-      #logo img{
-        height: 13px;
-      }
+    }
 
+    .right{
+      float:right;
+      margin-left: $m-l-spacing;
+      a h3{
+        color: $blue-gray;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      &:hover{
+        h3{
+
+        }
+      }
     }
   }
 }
