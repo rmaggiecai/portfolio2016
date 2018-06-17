@@ -1,13 +1,43 @@
 @import "bourbon";
 @import "grid-settings";
-@import "neat/neat";
+@import "bourbon_neat/neat";
 
 @import 'variables';
 @import 'typography';
 
+.loading-overlay{
+    z-index: 9999;
+    background-color: #FFF;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    margin-left: -39px;
+    margin-right: -39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      opacity: 0;
+      width: 100px;
+      height: 100px;
+      .cls-1{
+        fill: $pink;
+      }
 
+    }
+}
+.fade-out {
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+.fade-in {
+    animation: fadein 2s linear;
+}
+.remove {
+    display: none;
+}
 .header-background-image{
-  height: 100vh;
+  height: 1px;
 }
 .header{
   @include outer-container;
@@ -144,13 +174,6 @@
 
 
 
-h2{
-  margin-bottom: $m-l-spacing;
-  margin-top: 0px;
-  @include media ($mobile){
-    margin-bottom: $medium-spacing;
-  }
-}
 
 #project-2, #project-4, #project-6 {
   a{
@@ -167,6 +190,12 @@ h2{
   margin-bottom: 0;
 }
 
+h1.large{
+  font-size: 52px;
+  line-height:1.2;
+  margin-bottom: $small-spacing;
+}
+
 //animation
 @include keyframes(bounce) {
 	0%, 50%, 100% {
@@ -178,4 +207,20 @@ h2{
 	75% {
     @include transform(translateY(-20px));
   }
+}
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 98px;
+      height: 98px;
+    } 50% {
+      opacity: 1;
+      width: 100px;
+      height: 100px;
+    } 100% {
+      opacity: 0;
+      width: 98px;
+      height: 98px;
+    }
 }

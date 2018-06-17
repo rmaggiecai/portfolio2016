@@ -23,17 +23,19 @@ h1{
 }
 
 h2{
-  font-size: 18px;
-  line-height: $s-m-spacing;
+  font-size: 26px;
+  line-height: $medium-spacing;
   color: $blue-gray;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
+  margin-bottom: $m-l-spacing;
+  margin-top: $small-spacing;
+}
 
-  &:before{
-    content: url('../../img/icons/diamond.svg');
-    margin-right: $small-spacing;
-  }
+h4{
+  font-size: 20px;
+  line-height: $s-m-spacing;
+  font-weight: 400;
+  margin-bottom: $medium-spacing;
 }
 
 h3{

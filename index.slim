@@ -5,7 +5,7 @@ html
     meta name="description" content="Maggie Cai is a product designer based in San Francisco, CA."
     meta name="keywards" content="user experience, user interface, design"
 
-    meta name="viewport" content="width=device-width, initial-scale=1"
+    meta content="width=device-width, initial-scale=1" name="viewport"
 
 
 		link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -19,41 +19,32 @@ html
     link rel="shortcut icon" href="path/to/favicon.ico"
     script src="https://code.jquery.com/jquery-1.12.0.min.js"
 		script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-		script src="/src/javascript/script.js"
+		script src="./src/javascript/script.js"
     script src="/src/javascript/nav-script.js"
 
   body
-
+    .loading-overlay    
+      include _logo.slim
+      
     include _header.slim
     .header-background-image
 
-
-      .content-wrapper
-        .header
-          #quote
-            .quote-content
-              h1 	&ldquo;Software should behave like a considerate human&nbsp;being.&rdquo;
-              p.caption &mdash;About Face by Allen Cooper
-          #read-more
-            a href="#about-me"
-              img src="src/img/icons/go-down.svg"
-
     .content-wrapper
       .body#about-me
-        h3 About Me
+        
         .about-me-intro
           .about-me-description
+            h1.large Maggie Cai
+            h2 Product Designer 
             p
-              |I&rsquo;m a self-taught product designer with a diverse background in business, finance, engineering, and design. I started off with a few courses in Human Factors in school. Once I entered the world of tech, I fell in love with product design for its holistic approach to meet both function and form.
-              br
-              br
-              |To me, good product design is user-centered design. It is solving users&rsquo; needs and delighting them with a killer experience.
-              br
-              br
-              |If you would like to connect, please reach out at&nbsp;
-              span.a
-                a href="mailto:r.maggie.cai@gmail.com" r.maggie.cai@gmail.com
-            h3 Follow me
+            |I&rsquo;m a self-taught designer currently living in sunny San Francisco, California. My job is to help users succeed while solve business needs. 
+            br
+            br
+            |To me, good product design is user-centered, innovative, and metrics driven. We learn with empathy, create with intuition, and test with data. 
+            br
+            br
+            |You can catch me elsewhere too:
+
             ul
               li
                 span.a
@@ -63,12 +54,12 @@ html
                   a href="https://dribbble.com/rmaggiecai" target="_blank" Dribbble
               li
                 span.a
-                  a href="https://twitter.com/rmaggiecai" target="_blank" Twitter
+                  a href="https://www.linkedin.com/in/rmaggiecai" target="_blank" LinkedIn
               li
                 span.a
-                  a href="https://www.linkedin.com/in/rmaggiecai" target="_blank" LinkedIn
+                  a href="mailto:r.maggie.cai@gmail.com" target="_blank" Email
           .about-me-image
-            img src="src/img/images/portrait-copy.jpg"
+            img src="src/img/images/portrait2018.png"
 
         .body#my-work
           h3 my work

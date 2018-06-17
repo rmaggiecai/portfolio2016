@@ -1,0 +1,1 @@
+$(document).ready(function(){setTimeout(function(){$(".loading-overlay").addClass("hidden"),setTimeout(function(){$(".loading-overlay").addClass("remove")},1e3)},1e3)});
