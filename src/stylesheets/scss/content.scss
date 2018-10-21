@@ -7,7 +7,11 @@
 
 .content-wrapper{
   @include outer-container;
-  .content, .header{
+  .header{
+    @include span-columns(4);
+    @include omega;
+  }
+  .content{
     @include span-columns(3);
     @include omega;
 
@@ -30,13 +34,29 @@
     .caption{
       text-align: center;
       margin-top: $small-spacing;
+      @include span-columns(4);
     }
+    .image-holder{
+      @include span-columns(4);
+      @include omega;
+      .img-half{
+        @include span-columns(2);
+      }
+
+      .img-forth{
+        @include span-columns(1);
+      }
+      .img-3fourth{
+        @include span-columns(3);
+      }
+    }
+
   }
 
   .read-medium{
     @include span-columns(3);
-    @include shift(1);
-    @include omega;
+    // @include shift(1);
+    // @include omega;
 
     margin-top: $medium-spacing;
     background-color: $off-white;
@@ -101,9 +121,6 @@
     margin-bottom: $m-l-spacing;
   }
 
-  h1{
-    margin-bottom: $small-spacing;
-  }
 }
 
 h3{
@@ -122,4 +139,12 @@ footer{
   @include media ($mobile){
     margin-top: $section-break;
   }
+}
+
+h5{
+padding-left: $m-l-spacing;
+ margin-top: $s-m-spacing;
+ margin-bottom: $medium-spacing;
+ border-left: 4px solid $pink;
+
 }

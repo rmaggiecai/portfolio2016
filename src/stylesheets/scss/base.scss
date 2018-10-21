@@ -70,14 +70,10 @@ nav {
 
     li{
       display: inline-block;
-
-
-      // a{
-      //   padding:$s-m-spacing 0;
-      // }
+      vertical-align: top;
+      margin-right: $m-l-spacing;
 
       #logo {
-        display: inline-block;
         height: $s-m-spacing;
         img{
           width: $s-m-spacing;
@@ -88,10 +84,9 @@ nav {
     }
 
     .right{
-      float:right;
-      margin-left: $m-l-spacing;
+      margin-right: $medium-spacing;
       a h3{
-        color: $blue-gray;
+        color: $blue;
         margin-top: 0px;
         margin-bottom: 0px;
       }

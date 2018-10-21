@@ -57,20 +57,6 @@
         @include span-columns(2);
       }
 
-      h1{
-        // margin-top: $m-l-spacing;
-        text-indent: -13px;
-        font-size: 40px;
-        line-height: 62px;
-
-        @include media ($mobile){
-          text-indent: -11px;
-          font-size: 30px;
-          line-height: 1.4;
-        }
-
-      }
-
       p.caption{
         text-indent: -6px;
       }
@@ -190,10 +176,14 @@
   margin-bottom: 0;
 }
 
+
+
+h2{
+  margin-bottom: $m-l-spacing;
+}
+
 h1.large{
-  font-size: 52px;
-  line-height:1.2;
-  margin-bottom: $small-spacing;
+  // margin-top: $large-spacing;
 }
 
 //animation
@@ -212,15 +202,12 @@ h1.large{
 @keyframes fadein {
     0% {
       opacity: 0;
-      width: 98px;
-      height: 98px;
+      transform: scale(.98);
     } 50% {
       opacity: 1;
-      width: 100px;
-      height: 100px;
+      transform: scale(1);
     } 100% {
       opacity: 0;
-      width: 98px;
-      height: 98px;
+      transform: scale(.98);
     }
 }
