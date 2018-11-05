@@ -6,6 +6,14 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "proxima-nova", Helvetica, Sans-serif;
   font-size: 18px;
@@ -23,7 +31,7 @@ h1 {
   margin-bottom: 26px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 28px;
     line-height: 39px;
@@ -168,18 +176,18 @@ ol {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .header #quote {
     margin-top: 30vh;
   }
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .header #quote {
     float: left;
     display: block;
-    margin-right: 5%;
-    width: 47.5%;
+    margin-right: 10.5263157895%;
+    width: 100%;
   }
   .header #quote:last-child {
     margin-right: 0;
@@ -201,12 +209,12 @@ ol {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .header #read-more {
     float: left;
     display: block;
-    margin-right: 5%;
-    width: 47.5%;
+    margin-right: 10.5263157895%;
+    width: 100%;
   }
   .header #read-more:last-child {
     margin-right: 0;
@@ -221,7 +229,7 @@ ol {
   border-bottom: none;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .header #read-more a {
     bottom: 4vh;
   }
@@ -257,7 +265,7 @@ ol {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .body .about-me-description {
     float: left;
     display: block;
@@ -281,7 +289,7 @@ ol {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .body .about-me-image {
     float: left;
     display: block;
@@ -299,7 +307,7 @@ ol {
   box-shadow: 0px 29px 20px -29px rgba(178, 148, 154, 0.32), 0px 29px 30px -24px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   #project-2 a, #project-4 a, #project-6 a {
     display: flex;
     display: -webkit-flex;

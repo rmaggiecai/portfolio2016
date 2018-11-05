@@ -6,6 +6,14 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "proxima-nova", Helvetica, Sans-serif;
   font-size: 18px;
@@ -23,7 +31,7 @@ h1 {
   margin-bottom: 26px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 28px;
     line-height: 39px;
@@ -120,7 +128,7 @@ body, nav {
   margin: 0 39px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   body, nav {
     margin: 0 26px;
   }
@@ -131,7 +139,7 @@ footer {
   margin-top: 208px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   footer {
     margin-top: 130px;
   }
@@ -177,13 +185,13 @@ nav ul {
   height: 78px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 960px 4)) {
+@media screen and (max-width: 960px) {
   nav ul {
     margin: 0 39px;
   }
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   nav ul {
     margin: 0 26px;
   }
@@ -241,7 +249,7 @@ nav ul .right a h3 {
   display: table;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .project, .next-project {
     margin-bottom: 91px;
   }
@@ -313,12 +321,12 @@ nav ul .right a h3 {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .project .description, .next-project .description {
     float: left;
     display: block;
-    margin-right: 5%;
-    width: 47.5%;
+    margin-right: 10.5263157895%;
+    width: 100%;
   }
   .project .description:last-child, .next-project .description:last-child {
     margin-right: 0;
@@ -329,13 +337,13 @@ nav ul .right a h3 {
   margin-top: 52px;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 768px 2)) {
+@media screen and (max-width: 768px) {
   .project .description h1, .next-project .description h1 {
     margin-top: 39px;
   }
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .project .description h1, .next-project .description h1 {
     margin-top: 26px;
     margin-bottom: 13px;
@@ -353,12 +361,12 @@ nav ul .right a h3 {
   margin-right: 0;
 }
 
-@media screen and (min-width: new-breakpoint(max-width 480px 2)) {
+@media screen and (max-width: 480px) {
   .project .image, .next-project .image {
     float: left;
     display: block;
-    margin-right: 5%;
-    width: 47.5%;
+    margin-right: 10.5263157895%;
+    width: 100%;
   }
   .project .image:last-child, .next-project .image:last-child {
     margin-right: 0;
