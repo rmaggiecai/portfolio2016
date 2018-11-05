@@ -44,14 +44,15 @@
   #quote{
      @include span-columns(4);
     //  @include omega;
+    // note
 
      margin-top: 35vh;
      @include media ($mobile){
        margin-top: 30vh;
      }
-     @include media ($iphone5){
-       margin-top: 26vh;
-     }
+     // @include media ($iphone5){
+     //   margin-top: 26vh;
+     // }
 
      @include media($mobile) {
         @include span-columns(2);
@@ -71,7 +72,7 @@
     @include media($mobile) {
        @include span-columns(2);
      }
-
+//hi
 
     a{
       position:absolute;
@@ -97,22 +98,20 @@
   @include outer-container;
   margin-top: $section-break;
 
-  .about-me-intro{
-    @include outer-container;
     .about-me-description{
       @include span-columns(2 of 4);
 
       @include media($mobile) {
-         @include span-columns(2);
+         @include span-columns(2 of 2);
        }
-    }
+     }
 
     .about-me-image{
       @include span-columns(2 of 4);
       @include omega;
 
       @include media($mobile) {
-         @include span-columns(2);
+         @include span-columns(2 of 2);
          margin-top: $medium-spacing;
        }
       img{
@@ -120,43 +119,43 @@
         box-shadow: 0px 29px 20px -29px rgba(178, 148, 154, 0.32), 0px 29px 30px -24px rgba(0, 0, 0, 0.20)
       }
     }
-  }
+
 }
 
-.about-me-experience{
-  margin-top: $section-break;
-
-  @include media($mobile) {
-     @include span-columns(2);
-   }
-  h3{
-    margin-top: 0px;
-  }
-
-  .company{
-    @include span-columns(2 of 4);
-    @include media($mobile) {
-       @include span-columns(2);
-     }
-  }
-  [class^="experience-"]{
-    @include outer-container;
-    margin-top: $medium-spacing;
-    overflow:auto;
-  }
-  .experience-1{
-    @include omega;
-    margin-top: 0;
-  }
-  .description{
-    @include span-columns(2 of 4);
-
-    @include media($mobile) {
-       @include span-columns(2);
-       margin-top: $small-spacing;
-     }
-  }
-}
+// .about-me-experience{
+//   margin-top: $section-break;
+//
+//   @include media($mobile) {
+//      @include span-columns(2);
+//    }
+//   h3{
+//     margin-top: 0px;
+//   }
+//
+//   .company{
+//     @include span-columns(2 of 4);
+//     @include media($mobile) {
+//        @include span-columns(2);
+//      }
+//   }
+//   [class^="experience-"]{
+//     @include outer-container;
+//     margin-top: $medium-spacing;
+//     overflow:auto;
+//   }
+//   .experience-1{
+//     @include omega;
+//     margin-top: 0;
+//   }
+//   .description{
+//     @include span-columns(2 of 4);
+//
+//     @include media($mobile) {
+//        @include span-columns(2);
+//        margin-top: $small-spacing;
+//      }
+//   }
+// }
 
 
 
